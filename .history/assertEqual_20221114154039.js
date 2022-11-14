@@ -1,1 +1,0 @@
-touch assertEqual.js
