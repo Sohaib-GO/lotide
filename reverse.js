@@ -5,7 +5,7 @@ const reverse = function (input) {
     word += input[i];
   }
   return word;
-}
+};
 
 for (let i = 2; i < process.argv.length; i++) {
   console.log(reverse(process.argv[i]));
