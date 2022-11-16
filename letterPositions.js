@@ -20,6 +20,6 @@ const letterPositions = function(sentence) {
 };
 
 // TEST CODE
-console.log(assertArraysEqual(letterPositions("lighthouse in the house")["l"], [0])); // => PASS
-console.log(assertArraysEqual(letterPositions("lighthouse in the house")["i"], [2, 1])); // => FAIL
-console.log(assertArraysEqual(letterPositions("lighthouse in the house")["g"], [2])); // => PASS
+assertArraysEqual(letterPositions("hello").e, [1]); // => PASS
+assertArraysEqual(letterPositions("hello").l, [2, 3]); // => PASS
+assertArraysEqual(letterPositions("hello").o, [5]); // => FAIL
