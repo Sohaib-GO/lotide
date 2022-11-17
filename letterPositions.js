@@ -21,3 +21,5 @@ const letterPositions = function(sentence) {
 assertArraysEqual(letterPositions("hello").e, [1]); // => PASS
 assertArraysEqual(letterPositions("hello").l, [2, 3]); // => PASS
 assertArraysEqual(letterPositions("hello").o, [5]); // => FAIL
+
+
