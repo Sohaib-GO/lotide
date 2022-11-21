@@ -13,8 +13,4 @@ const middle = function(array) {
   return newArray;
 };
 
-
-// TEST CODE
-// console.log(assertArraysEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4])); // => should PASS
-// console.log(assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7]), [4])); // => should PASS
-// console.log(assertArraysEqual(middle([1, 2, 3, 4, 5, 6, 7, 8]), [4, 5])); // => should PASS
+module.exports = middle;
