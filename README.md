@@ -2,6 +2,8 @@
 
 A mini clone of the [Lodash](https://lodash.com) library.
 
+#### View my [npm package](https://www.npmjs.com/package/@sohaib-go/lotide)
+
 
 ## Purpose
 
