@@ -1,5 +1,4 @@
-const assertEqual = require("./assertEqual");
-const eqArrays = require("./eqArrays");
+const eqArrays = require("./index").eqArrays;
 
 const eqObjects = (object1, object2) => {
   // check if both objects have the same number of keys
@@ -31,15 +30,3 @@ const eqObjects = (object1, object2) => {
 };
 
 module.exports = eqObjects;
-// TEST CODE
-// console.log(
-//   assertEqual(eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }), true)
-// ); // => PASS
-// console.log(
-//   assertEqual(eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }), true)
-// ); // => PASS
-// console.log(
-//   assertEqual(eqObjects({ a: "1", b: "2" }, { b: "2", a: "1" }), false)
-// ); // => FAIL
-
-  
