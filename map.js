@@ -2,7 +2,7 @@
 const assertArraysEqual = require("./assertArraysEqual");
 
 
-
+// description: takes in an array and a callback function and returns a new array based on the results of the callback function
 
 const words = ["ground", "control", "to", "major", "tom"];
 
